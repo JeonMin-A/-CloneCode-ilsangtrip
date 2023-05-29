@@ -1,0 +1,11 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+*{
+    // font-family: 'NanumSquare';
+    font-family: 'NanumSquare';
+    font-weight: 300;
+}
+*::selection{
+    background: #ed9e90;
+    color: #fff;
+}

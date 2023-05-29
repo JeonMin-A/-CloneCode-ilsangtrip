@@ -1,0 +1,36 @@
+@mixin set-img{
+  width: 155px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.side-widget-area{
+  position: relative;
+  .side-widget{
+    .widget-wrap{
+      position: fixed;
+      z-index: 10;
+      right: 0;
+      bottom: 0;
+      .instagram-btn{
+        img{
+          @include set-img
+        }
+      }
+      .kakaotalk-btn{
+        img{
+          @include set-img
+        }
+      }
+      .scrollToTop-btn{
+        img{
+          @include set-img
+        }
+        margin-bottom: 80px;
+        box-sizing: border-box;
+        display: block;
+      }
+    }
+  }
+}

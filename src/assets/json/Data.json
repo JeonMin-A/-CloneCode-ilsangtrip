@@ -1,0 +1,11 @@
+[
+  {
+    "Nav" : ["BRAND", "PROGRAM", "WELL MATE", "WELLNESS ITEM", "CONTACT"]
+  },
+  {
+    "Nav" : ["BRAND", "PROGRAM", "WELL MATE", "WELLNESS ITEM", "LOGIN"]
+  },
+  {
+    "Nav" : ["소개해요", "프로그램", "웰 메이트", "웰니스 제품", "문의하기"]
+  }
+]
